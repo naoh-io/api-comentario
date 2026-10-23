@@ -1,4 +1,4 @@
-org: geraldocolchado
+org: nicoleortega
 service: api-comentario
 
 provider:
@@ -8,7 +8,7 @@ provider:
   memorySize: 1024
   timeout: 20
   iam:
-    role: arn:aws:iam::344491983971:role/LabRole
+    role: arn:aws:iam::526167459759:role/LabRole
   environment:
     TABLE_NAME: ${sls:stage}-t_comentarios
 
